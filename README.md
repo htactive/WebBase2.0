@@ -2,6 +2,7 @@
 WebBase 2.0 sử dụng Asp.Net Core 2.0 và react
 
 1. Init database
+
 a. Lệnh đổi environment:
 (đang update)
 
