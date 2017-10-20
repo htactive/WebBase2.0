@@ -1,0 +1,153 @@
+/* -----------------------------------------
+   Custom.css - put your own changes here 
+----------------------------------------- */
+.login-page {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/images/login-background.jpg);
+  position: relative;
+}
+
+.login-page::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.45) 100%);
+  z-index: -1;
+}
+
+.login-page .footer {
+  color: white;
+}
+
+.btn-login.outline.light {
+  padding: 1px;
+}
+
+.btn-login.outline.light:hover {
+  background: #808080;
+}
+
+.header-main {
+  margin-bottom: 0;
+}
+
+.btn-user-infor.outline.light {
+  padding: 1px;
+  border: none;
+}
+
+.btn-user-infor .username {
+  font-size: 14px;
+  text-transform: none;
+  text-decoration: underline;
+  bottom: 10px;
+  position: relative;
+  left: 3px;
+}
+
+.btn-user-infor img {
+  vertical-align: baseline;
+}
+
+.btn-user-infor .username:after {
+  content: "";
+}
+
+.builder-zone {
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.builder-item {
+  position: absolute;
+  overflow: hidden;
+}
+
+.community-zone {
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.community-item {
+  position: absolute;
+  overflow: hidden;
+}
+
+.outline.page-number {
+  min-width: 50px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.landing .box-simple-intro {
+  text-align: inherit;
+}
+
+.landing .simple-box .description.cut-line-4 {
+  height: 120px;
+  margin: 0 auto;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+}
+
+.landing .simple-box .name.cut-line-1 {
+  height: 62px;
+  margin: 0 auto;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  line-height: 100%;
+}
+
+.login-page #logo {
+  margin-top: -60px;
+}
+
+.c-form-group.has-error .c-form-control, .c-form-group.has-error .c-form-control {
+  border-color: #db5565;
+}
+
+.c-form-group.has-error .help-block {
+  color: #db5565;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+#minicontact .c-form-group.has-error input,
+#minicontact .c-form-group.has-error textarea,
+#minicontact .c-form-group.has-error select {
+  border-color: #db5565;
+
+}
+
+#minicontact .c-form-group.has-error label {
+  color: #db5565;
+}
+
+.c-form-group.has-error input,
+.c-form-group.has-error textarea,
+.c-form-group.has-error select {
+  border-color: #db5565;
+
+}
+
+.c-form-group.has-error label {
+  color: #db5565;
+}

@@ -1,0 +1,339 @@
+﻿
+#root {
+  padding: 0;
+  max-width: 100%;
+}
+
+.primary-column {
+  width: 100%;
+}
+
+.primary-column .content-pad {
+  padding: 0;
+}
+
+.inner-content {
+  padding: 0;
+}
+
+.header-main {
+  margin-bottom: 0;
+}
+
+.box-hero {
+  text-align: center;
+  background-image: url('http://www.dfwnewhomes.com/site_data/dfwnewhomes/neighborhood_pics/pic_83119.jpg');
+}
+
+.box-hero h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.box-hero h2 {
+  font-size: 18px;
+  padding: 0;
+}
+
+.btn-box {
+  padding: 1rem 0;
+}
+
+.btn {
+  background: #2a82a2;
+  font-size: 1rem;
+  padding: 0.75em 1em;
+  width: auto;
+}
+
+.box-simple-intro h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 0.25em;
+}
+
+.box-simple-intro .rotator {
+  padding-top: 1.5rem;
+  table-layout: fixed;
+}
+
+.landing .photo-gallery-main {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.box-simple-intro .rotator img {
+  margin: 0;
+  padding: 2px;
+  background: #f0f0f0;
+}
+
+.landing .photo-gallery-nav {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.landing .photo-gallery-nav .slick-current {
+  display: none;
+}
+
+.box-simple-featured h2 {
+  text-transform: uppercase;
+}
+
+.box-simple-featured p {
+  color: #525151;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.special {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.list-box ul {
+  text-align: left;
+  overflow: hidden;
+}
+
+.list-box li {
+  font-weight: 300;
+  width: 100%;
+  max-width: 360px;
+  float: left;
+  font-family: 'Abel', "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  padding-right: 1em;
+  padding-bottom: 0.1em;
+  color: #525151;
+}
+
+.list-box h1 {
+  padding-top: 1em;
+}
+
+.box-image {
+  background-color: #333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box-school {
+  position: relative;
+  text-align: left;
+}
+
+.box-school:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.box-school .contain {
+  position: relative;
+  z-index: 10;
+}
+
+.box-school h1.special {
+  color: #fff;
+  border-color: #fff;
+  text-align: center;
+}
+
+.box-school h2 {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.box-school ul {
+  margin: 0;
+  padding: 0 0 1rem;
+  list-style: none;
+}
+
+.box-school li {
+  font-weight: 300;
+  color: #fff;
+  padding-bottom: 0.25em;
+  font-family: 'Abel', "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.box-other h2 {
+  padding: 0;
+}
+
+.label {
+  text-align: left;
+  color: #3d3d3d;
+}
+
+.box-other .value {
+  text-align: left;
+  color: #3d3d3d;
+  font-weight: 300;
+  padding-left: 1rem;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-top: 0.1em;
+}
+
+.box-other .dak-row {
+  padding-bottom: 1rem;
+}
+
+.qs-holder {
+  padding-bottom: 1rem;
+}
+
+.d5-carousel-3 .didx-ps-property, .d5-grid-3 .didx-ps-property {
+  width: 33.333333333%;
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 21px;
+  }
+
+  .box-hero h1 {
+    font-size: 110px;
+  }
+
+  .box-hero h2 {
+    font-size: 32px;
+  }
+
+  .landing .box-simple-intro {
+    text-align: left;
+  }
+
+  .landing .box-simple-intro .text {
+    padding-right: 2rem;
+  }
+
+  .landing .box-simple-intro h1 {
+    font-size: 50px;
+  }
+
+  .landing .box-simple-intro h3 {
+    font-size: 40px;
+    max-width: 80%;
+  }
+
+  .box-simple-featured p {
+    font-size: 18px;
+  }
+
+  .list-box li {
+    font-size: 28px;
+  }
+
+  .box-school .dak-grid-12 {
+    padding-right: 1rem;
+  }
+
+  .box-school h2 span {
+    display: block;
+  }
+
+  .landing .photo-gallery-main, .landing .photo-gallery-nav {
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box-school li {
+    font-size: 28px;
+    box-sizing: border-box;
+    display: block;
+    padding-right: 1rem;
+  }
+
+  .box-other .value {
+    font-size: 24px;
+  }
+
+  .box-other .dak-row {
+    padding-bottom: 2rem;
+  }
+}
+
+.three-column .paragraph-item li {
+  font-weight: 300;
+  padding-bottom: 0.25em;
+  font-family: 'Abel', "Arial Narrow", Arial, sans-serif;
+  font-size: 28px;
+  box-sizing: border-box;
+  display: block;
+  padding-right: 1rem;
+}
+
+.three-column .paragraph-item ul {
+  margin: 0;
+  padding: 0 0 1rem;
+  list-style: none;
+}
+
+.three-column h2 {
+  text-transform: capitalize;
+}
+
+.feature-has-background {
+  background-size: cover;
+  background: #333 no-repeat center;
+  position: relative;
+}
+
+.feature-has-background:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.feature-has-background h1.special {
+  color: white;
+}
+
+.feature-has-background h2 {
+  color: white;
+}
+
+.feature-has-background ul li {
+  color: white;
+}
+
+.feature-has-background hr {
+  color: white;
+}
+
+.feature-has-background p {
+  color: white;
+}
+
+.feature-has-background .box-other .value span {
+  color: white;
+}
+
+.feature-has-background .contain {
+  position: relative;
+  z-index: 10;
+  padding: 0rem 20px;
+}
+
+.list-box ul {
+  margin: 0px;
+}
+.box-section .contain {
+  padding: 1rem 20px;
+}

@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,18 +17,7 @@ namespace Base.Web
     {
         public InstanceEntities CreateDbContext(string[] args)
         {
-           
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile($"appsettings.{"Development"}.json", optional: true)
-                .AddEnvironmentVariables();
-                
-            var configuration = builder.Build();
-            var optionBuilder = new DbContextOptionsBuilder<InstanceEntities>();
-            optionBuilder.UseSqlServer(configuration.GetConnectionString("BaseDBConnection"),
-                b => b.MigrationsAssembly("Base.Web")
-                );
-            return new InstanceEntities(optionBuilder.Options);
+            return Program.BuildWebHost(args).Services.CreateScope().ServiceProvider.GetRequiredService<InstanceEntities>();
         }
     }
 }

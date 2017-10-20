@@ -22,6 +22,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="wwwroot\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\assets\js\blazy.min.js" />
+    <None Include="wwwroot\assets\js\bootstrap\bootstrap.js" />
+    <None Include="wwwroot\assets\js\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\assets\js\jquery.cycle2.min.js" />
+    <None Include="wwwroot\assets\js\pages\cma-form.js" />
+    <None Include="wwwroot\assets\js\pages\get-in-touch.js" />
+    <None Include="wwwroot\assets\js\pages\homepage.js" />
+    <None Include="wwwroot\assets\js\pages\list-your-home-form.js" />
+    <None Include="wwwroot\assets\js\pages\login.js" />
+    <None Include="wwwroot\assets\js\pages\nsr-form.js" />
+    <None Include="wwwroot\assets\js\site.js" />
+    <None Include="wwwroot\assets\js\site.min.js" />
+    <None Include="wwwroot\assets\js\slick.min.js" />
+    <None Include="wwwroot\assets\plugins\forms\validation\additional-methods.min.js" />
+    <None Include="wwwroot\assets\plugins\forms\validation\jquery.validate.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Base.Common\Base.Common.csproj" />
     <ProjectReference Include="..\Base.Entities\Base.Entities.csproj" />
     <ProjectReference Include="..\Base.Repository\Base.Repository.csproj" />

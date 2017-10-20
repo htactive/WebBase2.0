@@ -1,0 +1,131 @@
+﻿/* Area Page */
+.d5area_select{
+    text-align: right;
+    padding: 0 0 10px;
+}
+.d5area_select h2{
+    text-align: center;
+    vertical-align: middle;
+}
+.d5area_select select{
+    font-size: 1.1em;
+    margin: 0 0 0 6px;
+}
+.d5area_list ul{
+    list-style: none;
+    margin: 12px 0;
+    padding: 0;
+    text-align: left;
+}
+.d5area_list li{
+    border-bottom: 1px solid #EBEBEB;
+}
+.d5area_list li:hover{
+    background: #EBEBEB;
+}
+.d5area_list h3{
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    color: #2a82a2;
+}
+.d5area_list a{
+    display: block;
+    text-decoration: none;
+    padding: 18px 12px;
+    box-sizing: border-box;
+}
+.d5area_list a:hover h3 {
+    color: #2a82a2;
+}
+.d5area_list span{
+    font-size: 0.9em;
+}
+
+.d5area_excerpt{
+    padding: 3px 0 0;
+    margin: 1px 0 0;
+    text-decoration: none;
+    color: #808080;
+}
+
+#d5area_cn_header{
+    margin: 0 0 12px;
+}
+#d5area_map{
+    height: 300px;
+    width: 100%;
+    clear: both;
+    margin: 1% 0;
+}
+#d5area_cn_list{
+    text-align: center;
+    margin: 0 auto;
+}
+#d5area_content{
+	line-height: 150%;
+}
+
+/* Individual Area Pages */
+#d5area_cn_list:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.d5area_cn {
+    box-sizing: border-box;
+    overflow: hidden;
+	margin: 12px 0;
+    text-align: center;
+    width: 100%;
+}
+.d5area-cn-img {
+    display: block;
+    padding: 6px 6px 0;
+}
+.d5area_cn_name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.d5area_cn_summary {
+    padding: 6px 12px 12px;
+}
+
+.d5m_width_430 .d5area_cn,
+.d5m_width_500 .d5area_cn,
+.d5m_width_570 .d5area_cn,
+.d5m_width_640 .d5area_cn {
+    width: calc(100%/2 - 12px);
+    float: left;
+    margin: 6px;
+}
+
+.d5m_width_430 .d5area_cn:nth-of-type(2n-1),
+.d5m_width_500 .d5area_cn:nth-of-type(2n-1),
+.d5m_width_570 .d5area_cn:nth-of-type(2n-1),
+.d5m_width_640 .d5area_cn:nth-of-type(2n-1) {
+    clear: both;
+}
+
+.d5m_width_710 .d5area_cn,
+.d5m_width_780 .d5area_cn,
+.d5m_width_850 .d5area_cn,
+.d5m_width_920 .d5area_cn {
+    width: calc(100%/3 - 12px);
+    float: left;
+    margin: 6px;
+}
+
+.d5m_width_710 .d5area_cn:nth-of-type(3n-2),
+.d5m_width_780 .d5area_cn:nth-of-type(3n-2),
+.d5m_width_850 .d5area_cn:nth-of-type(3n-2),
+.d5m_width_920 .d5area_cn:nth-of-type(3n-2) {
+    clear: both;
+}
+
+.d5m_width_990 .d5area_cn {
+    width: 263px;
+    display: inline-block;
+    margin: 6px;
+    vertical-align: top;
+}

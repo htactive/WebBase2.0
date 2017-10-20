@@ -1,0 +1,47 @@
+﻿
+body{
+    background:#fff;
+    font-size: 12pt;
+}
+.standard-table, #summary-table {
+    font-size:11pt;
+}
+/*#primary-column, .primary-column{
+    float:none;
+    width:100%;
+}*/
+h3{
+    font-size:13pt;
+}
+.primary-column .content-pad {
+    padding:12px;
+}
+#root{
+    width:100%;
+}
+.dakno-standard{
+    width:auto;
+}
+.dak-left{
+    width:67%;
+}
+.dak-right{
+    width:30%;
+}
+#current_pic{
+    float:left;
+}
+#details-map{
+    page-break-before:always;
+}
+
+/* Hidden from Printer*/
+/*#header, #secondary-column, .secondary-column,
+#facebook_like, .rss-property, .addthis, .index-list, .clist, .nlist,
+#index-offers, .index-offers, .footer-menu, .google-search-text, .google-search-params,
+.dak-right ul, .dakno, #subheader, #midheader, .midheader, #index-resources, .no-print{
+    display:none;
+}*/
+.page-break{
+    page-break-before: always;
+}
